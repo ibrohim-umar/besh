@@ -1,0 +1,30 @@
+.second{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+   
+    gap: 400px;
+    height: 100vh;
+}
+.second-right{
+    
+    margin-left: 5rem;
+    font-size: 30px;
+    border: 1px solid white;
+}
+.second-right p{
+    padding: 30px;
+    color: white;
+    text-align: center;
+}
+.second-left{
+    margin-right: 5rem
+}
+.second-left img{
+    border-radius: 6px ;
+    border: 2px solid white;
+    margin-right: 4rem ;
+    width: 400px;
+    height: 400px;
+}

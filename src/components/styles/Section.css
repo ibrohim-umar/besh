@@ -1,0 +1,48 @@
+.section{
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    background-color: gray;
+    align-items: center;
+    height: 90vh;
+    justify-content: space-around;
+}
+.section-right{
+    
+}
+.section-right img {
+    height: 70vh;
+    margin-top: 1rem;
+    border-radius: 100px;
+    background: linear-gradient(to bottom right,rgb(171, 105, 105),rgb(52, 32, 32));
+}
+.section-left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.section-left h1{
+    font-size: 70px;
+    text-shadow: 2px 0 2px rgb(241, 235, 235);
+    color: rgb(32, 18, 18);
+    
+}
+.section-left h3{
+    color: rgb(59, 57, 57);
+    font-size: 30px;
+}.section-left p{
+    font-size: 20px;
+    
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+}
+.section-left button{
+    padding: 10px 20px;
+    width: 200px;
+    font-weight: bolder;
+    color: rgb(249, 244, 244);
+    background-color: rgb(29, 17, 17);
+    border-radius: 10px;
+}
